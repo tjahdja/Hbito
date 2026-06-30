@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://crseqai6ax231"]
+
+[ext_resource type="Script" uid="uid://t8w7wbgt2rlx" path="res://Scenes/Autoload/SaveManager.cs" id="1_3is06"]
+
+[node name="SaveManager" type="Node" unique_id=1639828129]
+script = ExtResource("1_3is06")

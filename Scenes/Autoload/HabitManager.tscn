@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://vev618tf35mk"]
+
+[ext_resource type="Script" uid="uid://bf3d7p8yyrmb4" path="res://Scenes/Autoload/HabitManager.cs" id="1_gf3d2"]
+
+[node name="HabitManager" type="Node" unique_id=1238124998]
+script = ExtResource("1_gf3d2")
