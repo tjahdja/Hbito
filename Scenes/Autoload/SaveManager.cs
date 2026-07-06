@@ -27,6 +27,16 @@ public partial class SaveManager : Node
         WriteSaveData();
     }
 
+    public static void DeactivateHabit(string id)
+    {
+        var habitToUpdate = SaveData.Find(h => h.Id == id);
+        if (habitToUpdate != null)
+        {
+            habitToUpdate.Status = Status.Failed;
+            WriteSaveData();
+        }
+    }
+
     private static void WriteSaveData()
     {
         var dataString = JsonConvert.SerializeObject(SaveData);

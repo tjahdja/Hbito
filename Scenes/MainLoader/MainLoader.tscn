@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bywm17ujxake8"]
+
+[ext_resource type="Script" uid="uid://b72tr8wivmsyr" path="res://Scenes/MainLoader/MainLoader.cs" id="1_ruaj1"]
+
+[node name="MainLoader" type="Node" unique_id=879919447]
+script = ExtResource("1_ruaj1")
+MainMenuScene = "uid://dvgs1e1mx0gka"
+ActiveHabitScene = "uid://nq63fycs6x6c"

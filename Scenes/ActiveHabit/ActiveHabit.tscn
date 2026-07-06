@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://nq63fycs6x6c"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_7mhqh"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_hknql"]
+normal_texture = SubResource("ImageTexture_7mhqh")
+
+[node name="ActiveHabit" type="Node2D" unique_id=220211620]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=15633053]
+position = Vector2(443.25, 225.25)
+scale = Vector2(887.5, 451.5)
+texture = SubResource("CanvasTexture_hknql")

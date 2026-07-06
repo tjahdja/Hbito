@@ -11,10 +11,16 @@ config_version=5
 [application]
 
 config/name="Hbito"
+run/main_scene="uid://bywm17ujxake8"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="Hbito"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+SaveManager="*uid://crseqai6ax231"
+HabitManager="*uid://vev618tf35mk"
 
 [display]
 
